@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Transaction"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/title_input"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Title"
+        android:padding="12dp"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/edit_text_background" />
+
+    <EditText
+        android:id="@+id/amount_input"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Amount"
+        android:inputType="numberDecimal"
+        android:padding="12dp"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/edit_text_background" />
+
+    <Spinner
+        android:id="@+id/category_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginBottom="12dp" />
+
+    <Spinner
+        android:id="@+id/type_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginBottom="12dp" />
+
+    <EditText
+        android:id="@+id/notes_input"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:hint="Notes"
+        android:padding="12dp"
+        android:layout_marginBottom="12dp"
+        android:gravity="top"
+        android:background="@drawable/edit_text_background" />
+
+    <Button
+        android:id="@+id/save_button"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="Save"
+        android:textStyle="bold" />
+
+</LinearLayout>
