@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Finance Tracker</string>
+    <string name="add_transaction">Add Transaction</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+    <string name="income">Income</string>
+    <string name="expense">Expense</string>
+</resources>
